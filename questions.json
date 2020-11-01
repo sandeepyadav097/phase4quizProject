@@ -1,14 +1,14 @@
 {
     "questions": [
-      { "id": 1, "question":"Q 1" , "options": ["a", "b", "c", "d"] },
-      { "id": 2, "question":"Q 2" , "options": ["a", "b", "c", "d"] },
-      { "id": 3, "question":"Q 3" , "options": ["a", "b", "c", "d"] },
-      { "id": 4, "question":"Q 4" , "options": ["a", "b", "c", "d"] },
-      { "id": 5, "question":"Q 5" , "options": ["a", "b", "c", "d"] },
-      { "id": 6, "question":"Q 6" , "options": ["a", "b", "c", "d"] },
-      { "id": 7, "question":"Q 7" , "options": ["a", "b", "c", "d"] },
-      { "id": 8, "question":"Q 8" , "options": ["a", "b", "c", "d"] },
-      { "id": 9, "question":"Q 9" , "options": ["a", "b", "c", "d"] },
-      { "id": 10, "question":"Q 10" , "options": ["a", "b", "c", "d"] } 
+      { "id": 1, "question":"Everything in React is a _____________", "options": [{"option":"Component", "isCorrect":true},{"option":"Module", "isCorrect":false},{"option":"Package", "isCorrect":false},{"option":"Class", "isCorrect":false}] },
+      { "id": 2, "question":"Usually, in which directory React Components are saved?", "options": [{"option":"Inside vendor/components/", "isCorrect":false},{"option":"Inside js/components/", "isCorrect":true},{"option":"Inside external/components/", "isCorrect":false},{"option":"Inside vendor/", "isCorrect":false}]},
+      { "id": 3, "question":"How many elements can a react component return?", "options": [{"option":"1 Element", "isCorrect":false},{"option":"2 Elements", "isCorrect":false},{"option":"Multiple Elements", "isCorrect":true},{"option":"No Elements", "isCorrect":false}] },
+      { "id": 4, "question":"What is state in React?", "options": [{"option":"A persistant storage.", "isCorrect":false},{"option":"An internal data store (object) of a component", "isCorrect":true},{"option":"A DB store", "isCorrect":false},{"option":"A File Storage System", "isCorrect":false}] },
+      { "id": 5, "question":"What is Babel ?", "options": [{"option":"A transpiler", "isCorrect":false},{"option":"An interpreter", "isCorrect":false},{"option":"A Compiler", "isCorrect":false},{"option":"Both Complier and Transpiler", "isCorrect":true}] },
+      { "id": 6, "question":"What is ReactJS", "options": [{"option":"Server side Framework", "isCorrect":false},{"option":"User-interface framework", "isCorrect":false},{"option":"A Library for building interaction interfaces", "isCorrect":true},{"option":"None", "isCorrect":false}] },
+      { "id": 7, "question":"In React what is used to pass data to a component from outside?", "options": [{"option":"setState", "isCorrect":false},{"option":"render with arguments", "isCorrect":false},{"option":"PropTypes", "isCorrect":false},{"option":"props", "isCorrect":true}] },
+      { "id": 8, "question":"How can you access the state of a component from inside of a member function?", "options": [{"option":"this.getState()", "isCorrect":false},{"option":"this.state", "isCorrect":true},{"option":"this.prototype.stateValue", "isCorrect":false},{"option":"this.props.state", "isCorrect":false}] },
+      { "id": 9, "question":"ReactJS uses _____ to increase performance", "options":[{"option":"Original DOM", "isCorrect":false},{"option":"Virtual DOM", "isCorrect":true},{"option":"BabelDOM", "isCorrect":false},{"option":"None", "isCorrect":false}] },
+      { "id": 10, "question":"Keys are given to a list of elements in react. These keys should be -", "options": [{"option":"Unique among the siblings only", "isCorrect":true},{"option":"Do not requires to be unique", "isCorrect":false},{"option":"Unique in the DOM", "isCorrect":false},{"option":"All of the above", "isCorrect":false}] } 
     ]
   }
