@@ -1,1 +1,1 @@
-# Online Test Application
+# Online Quiz Application
